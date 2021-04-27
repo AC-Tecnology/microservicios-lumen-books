@@ -10,6 +10,7 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 use Throwable;
 use App\Traits\ApiResponser;
 use Illuminate\Http\Response;
+use Illuminate\Auth\AuthenticationException;
 
 class Handler extends ExceptionHandler
 {
